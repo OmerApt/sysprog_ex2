@@ -71,11 +71,11 @@ void printResult(char names[], int selected_bool[], int res)
     printf("Maximum profit: ");
     printf("%d", res);
     printf("\n");
-    printf("Selected items: ");
+    printf("Selected items:");
     for (int i = 0; i < MAXLENGTH + 1; i++)
     {
         if (selected_bool[i])
-            printf("%c ", names[i]);
+            printf(" %c", names[i]);
     }
 }
 
