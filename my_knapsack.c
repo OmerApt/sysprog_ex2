@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include "my_knapsack.h"
 #define MAXWEIGHT 20
 #define MAXLENGTH 5
-#define DEBUG 1
+#define DEBUG 0
 int max(int v1, int v2);
+int knapSack(int weights[],int values[], int selected_bool[]);
 void printResult(char names[], int selected_bool[], int res);
 
 int main()

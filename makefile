@@ -1,7 +1,7 @@
 
 all: my_graph my_Knapsack
 
-my_knapsack.o: my_knapsack.c my_knapsack.h
+my_knapsack.o: my_knapsack.c
 	gcc -Wall -g -c my_knapsack.c
 
 my_mat.o: my_mat.c my_mat.h
